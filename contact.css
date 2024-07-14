@@ -1,0 +1,184 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #002633;
+
+}
+
+#container {
+	width: 100%;
+	padding: 0 100px;
+}
+
+.box {
+	max-width: 1730px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.header {
+	padding-top: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 200px;
+}
+
+.logo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+ul.menu li {	position: relative;
+
+}
+
+ul.menu li a {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #6b8c95;
+	text-transform: uppercase;
+}
+
+ul.menu li:hover a {
+	background-color: #c81010;
+	color: #fff;
+}
+
+.contactus {
+	width: 100%;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.contactus .title {
+	font-size: 50px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.box1 {
+	display: flex;
+	flex-direction: column;
+	width: 882px;
+	background-color: #fff;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: nowrap;
+	margin:0 auto;
+	text-align: center;
+}
+
+.box1 .title {
+	font-weight: bold;
+	font-size:20px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.box1 .content {
+	font-size: 15px;
+	color: #989B94;
+	line-height: 30px;
+}
+
+.box1 img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin-top: 20px;
+}
+
+.bottom {
+	width: 100%;
+	height: 320px;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.th5 {
+	width: 380px;
+	height: 320px;
+	background-image: url(img-04.jpg);
+	background-size: cover;
+	margin-right: 40px;
+}
+
+.who {
+	width: 300px;
+	height: 320px;
+	margin-right: 40px;
+}
+
+.who p:first-of-type {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+}
+
+.who p:last-of-type {
+	color: #769687;
+}
+
+.where {
+	width: 330px;
+	height: 320px;
+	margin-right: 40px;
+}
+
+.where p:first-of-type {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+.contact span {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+}
+
+.contact p {
+	color: #769687;
+}
+
+.contact p::first-letter {
+	color: #BC0001;
+}
+
+.footer p:first-of-type {
+	color: #769687;
+	text-align: center;
+	line-height: 25px;
+}
